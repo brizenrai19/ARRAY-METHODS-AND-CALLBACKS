@@ -1,4 +1,4 @@
-const fifaData = [
+export const fifaData = [
   {
     "Year": 1930,
     "Datetime": "13 Jul 1930 - 15:00",
