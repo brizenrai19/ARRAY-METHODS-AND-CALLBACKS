@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --verbose --watchAll"
+    "test:watch": "jest --verbose --watchAll",
+    "start": "index.html"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
     "babel-jest": "^26.3.0",
     "eslint": "^7.10.0",
     "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1"
   }
 }
